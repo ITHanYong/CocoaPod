@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "MasonryViewController.h"
+#import "SDAutoLayoutViewController.h"
+#import "NavViewController.h"
+#import "TabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    MasonryViewController *masonryVC = [[MasonryViewController alloc] init];
+    NavViewController *nav = [[NavViewController alloc] initWithRootViewController:masonryVC];
+    
+    nav.tabBarItem.title = @"mas";
+    
+    SDAutoLayoutViewController *sdvc = [[SDAutoLayoutViewController alloc] init];
+    sdvc.tabBarItem.title = @"sd";
+    
+    TabBarViewController *tab = [[TabBarViewController alloc] init];
+    tab.viewControllers = @[nav,sdvc];
+    
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

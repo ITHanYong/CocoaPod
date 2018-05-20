@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		442C559D20B11DA7002B5790 /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C559C20B11DA7002B5790 /* MasonryViewController.m */; };
+		442C55A020B126D1002B5790 /* SDAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C559F20B126D1002B5790 /* SDAutoLayoutViewController.m */; };
+		442C55A420B14497002B5790 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C55A320B14497002B5790 /* UIView+Extension.m */; };
 		4453CAAC20A9D6B600EFDB47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453CAAB20A9D6B600EFDB47 /* AppDelegate.m */; };
 		4453CAAF20A9D6B600EFDB47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453CAAE20A9D6B600EFDB47 /* ViewController.m */; };
 		4453CAB220A9D6B600EFDB47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4453CAB020A9D6B600EFDB47 /* Main.storyboard */; };
 		4453CAB420A9D6B800EFDB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4453CAB320A9D6B800EFDB47 /* Assets.xcassets */; };
 		4453CAB720A9D6B800EFDB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4453CAB520A9D6B800EFDB47 /* LaunchScreen.storyboard */; };
 		4453CABA20A9D6B800EFDB47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453CAB920A9D6B800EFDB47 /* main.m */; };
+		44FFFBCF20B1C88700AB20FD /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FFFBCE20B1C88700AB20FD /* NavViewController.m */; };
+		44FFFBD220B1C8B500AB20FD /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FFFBD120B1C8B500AB20FD /* TabBarViewController.m */; };
 		9200710810D0C126FF3954AC /* Pods_CocoaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D06D30AF75B36E49431578A /* Pods_CocoaPod.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +25,10 @@
 		022223E7CC82D22A9A5836D8 /* Pods-CocoaPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPod/Pods-CocoaPod.debug.xcconfig"; sourceTree = "<group>"; };
 		442C559B20B11DA7002B5790 /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
 		442C559C20B11DA7002B5790 /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
+		442C559E20B126D1002B5790 /* SDAutoLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAutoLayoutViewController.h; sourceTree = "<group>"; };
+		442C559F20B126D1002B5790 /* SDAutoLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAutoLayoutViewController.m; sourceTree = "<group>"; };
+		442C55A220B14497002B5790 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		442C55A320B14497002B5790 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		4453CAA720A9D6B600EFDB47 /* CocoaPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4453CAAA20A9D6B600EFDB47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4453CAAB20A9D6B600EFDB47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +39,11 @@
 		4453CAB620A9D6B800EFDB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4453CAB820A9D6B800EFDB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4453CAB920A9D6B800EFDB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44FFFBCC20B15ED800AB20FD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		44FFFBCD20B1C88700AB20FD /* NavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		44FFFBCE20B1C88700AB20FD /* NavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		44FFFBD020B1C8B500AB20FD /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		44FFFBD120B1C8B500AB20FD /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		7D06D30AF75B36E49431578A /* Pods_CocoaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C152A31234ACFBF591EC871 /* Pods-CocoaPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPod/Pods-CocoaPod.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +72,8 @@
 		442C559920B11D7A002B5790 /* SDAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				442C559E20B126D1002B5790 /* SDAutoLayoutViewController.h */,
+				442C559F20B126D1002B5790 /* SDAutoLayoutViewController.m */,
 			);
 			path = SDAutoLayout;
 			sourceTree = "<group>";
@@ -68,8 +83,21 @@
 			children = (
 				442C559B20B11DA7002B5790 /* MasonryViewController.h */,
 				442C559C20B11DA7002B5790 /* MasonryViewController.m */,
+				44FFFBCD20B1C88700AB20FD /* NavViewController.h */,
+				44FFFBCE20B1C88700AB20FD /* NavViewController.m */,
+				44FFFBD020B1C8B500AB20FD /* TabBarViewController.h */,
+				44FFFBD120B1C8B500AB20FD /* TabBarViewController.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		442C55A120B14436002B5790 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				442C55A220B14497002B5790 /* UIView+Extension.h */,
+				442C55A320B14497002B5790 /* UIView+Extension.m */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 		4453CA9E20A9D6B600EFDB47 = {
@@ -97,6 +125,7 @@
 				4453CAAB20A9D6B600EFDB47 /* AppDelegate.m */,
 				4453CAAD20A9D6B600EFDB47 /* ViewController.h */,
 				4453CAAE20A9D6B600EFDB47 /* ViewController.m */,
+				442C55A120B14436002B5790 /* Public */,
 				442C559A20B11D8D002B5790 /* Masonry */,
 				442C559920B11D7A002B5790 /* SDAutoLayout */,
 				4453CAB020A9D6B600EFDB47 /* Main.storyboard */,
@@ -104,6 +133,7 @@
 				4453CAB520A9D6B800EFDB47 /* LaunchScreen.storyboard */,
 				4453CAB820A9D6B800EFDB47 /* Info.plist */,
 				4453CAB920A9D6B800EFDB47 /* main.m */,
+				44FFFBCC20B15ED800AB20FD /* PrefixHeader.pch */,
 			);
 			path = CocoaPod;
 			sourceTree = "<group>";
@@ -263,10 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442C55A420B14497002B5790 /* UIView+Extension.m in Sources */,
 				4453CAAF20A9D6B600EFDB47 /* ViewController.m in Sources */,
 				4453CABA20A9D6B800EFDB47 /* main.m in Sources */,
 				442C559D20B11DA7002B5790 /* MasonryViewController.m in Sources */,
+				44FFFBD220B1C8B500AB20FD /* TabBarViewController.m in Sources */,
+				442C55A020B126D1002B5790 /* SDAutoLayoutViewController.m in Sources */,
 				4453CAAC20A9D6B600EFDB47 /* AppDelegate.m in Sources */,
+				44FFFBCF20B1C88700AB20FD /* NavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +443,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G82574ATF5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CocoaPod/PrefixHeader.pch";
 				INFOPLIST_FILE = CocoaPod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,6 +464,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G82574ATF5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CocoaPod/PrefixHeader.pch";
 				INFOPLIST_FILE = CocoaPod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
